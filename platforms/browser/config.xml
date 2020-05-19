@@ -12,7 +12,14 @@
     <icon src="icon.png" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    <splash src="splash.png" />
+    <splash platform="android" qualifier="port-ldpi" src="sp_img/splash.png" />
+    <splash platform="android" qualifier="port-hdpi" src="sp_img/splash.png" />
+    <splash platform="android" qualifier="port-mdpi" src="sp_img/splash.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="sp_img/splash.png" />
     <preference name="orientation" value="portrait" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-targetSdkVersion" value="26" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2000" />
 </widget>

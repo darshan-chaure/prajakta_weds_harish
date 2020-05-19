@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.darshanchaure.prajakta_weds_harish"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.darshanchaure.prajakta_weds_harish"
         }
     },
     "dependent_plugins": {}
