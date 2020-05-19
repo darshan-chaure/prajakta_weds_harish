@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.darshanchaure.prajakta_weds_harish" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Prajakta Weds Harish</name>
+    <description>
+        Wedding invitation app to invite guests in a wedding ceremony of Prajakta and Harish.
+    </description>
+    <author email="cdarshan1990@gmail.com">
+        Darshan Chaure
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<icon src="icon.png" />
+	<preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+	<preference name="android-targetSdkVersion" value="26"/>
+	
+	<plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+</widget>
