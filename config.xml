@@ -20,7 +20,7 @@
 	<allow-navigation href="*" />
 	<allow-intent href="*" />
 	
-	<preference name="SplashScreenDelay" value="2000" />
+	<preference name="SplashScreenDelay" value="5000" />
 	<splash src="splash.png" />
 	
 	<splash platform="android" qualifier="port-ldpi" src="sp_img/splash.png" />

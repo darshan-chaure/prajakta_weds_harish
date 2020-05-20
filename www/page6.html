@@ -44,10 +44,11 @@
 			Join Online
 		</div>
 		<div style="text-align: center;">
+			<span id="loading">Connecting...</span>
 			<iframe src="https://www.youtube.com/embed/t_3GbEHLRC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="width: 100%;padding:5px;"></iframe>
 		</div>
 
     </body>
 	
-	<script type="text/javascript">jQuery("document").ready(function(){jQuery("body").fadeIn()});</script>
+	<script type="text/javascript">jQuery("document").ready(function(){jQuery("body").fadeIn();setTimeout(function(){jQuery("#loading").hide();},3000);});</script>
 </html>
